@@ -1,0 +1,343 @@
+:root {
+    --Pink: hsl(322, 100%, 66%);
+    --LightPink: hsl(321, 100%, 78%);
+    --LightRed: hsl(0, 100%, 63%);
+    --VeryDarkCyan: hsl(192, 100%, 9%);
+    --VeryPaleBlue: hsl(207, 100%, 98%);
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    font-family: Poppins; 
+    background-color: var(--VeryDarkCyan); 
+    color: white; 
+    margin: 0;
+    padding: 5px;
+}
+.attribution a { color: var(--Pink); text-decoration: none;}
+
+.container {
+    padding: 40px 60px;
+    position: relative;
+}
+
+.header .logo,
+.header .button {
+    display: inline-block;
+}
+
+.header .button a {
+    color: var(--Pink);
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    background-color: white;
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+    border: 2px solid var(--Pink);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.header .button a:hover {
+    color: var(--LightPink);
+    border-color: var(--LightPink);
+}
+
+.section-1 {
+    text-align: center;
+    font-family: 'Open Sans';
+    margin-top: 125px;
+}
+
+.section-1 h1 {
+    font-weight: 900;
+    font-family: Poppins;
+}
+
+.section-1 p {
+    width: 500px;
+    font-weight: 400;
+    margin-left: calc(50% - 250px);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section-1 .button {
+    margin-top: 50px;
+    margin-bottom: 75px;
+} 
+
+.section-1 .button a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    background-color: var(--Pink);
+    padding: 20px 80px 20px 80px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.section-1 .button a:hover {
+    background-color: var(--LightPink);
+}
+
+.stats {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Open Sans';
+}
+
+.stats .element {
+    display: inline-block;
+    text-align: center;
+}
+
+.stats .e-1 {
+    margin-right: 400px;
+}
+
+.stats .element .num {
+    font-weight: 900;
+    font-size: 55px;
+    color: var(--VeryDarkCyan);
+}
+
+.stats .element .text {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.stats .element .icon {
+    text-align: left;
+}
+
+.stats .element .icon img {
+    height: 30px;
+}
+
+.sections {
+    font-family: 'Open Sans';
+}
+
+.sections .title {
+    font-weight: 900;
+}
+
+.sections .p {
+    font-weight: 400;
+    width: 500px;
+    line-height: 1.6;
+}
+
+.sections .bg {
+    background-color: var(--VeryPaleBlue);
+}
+
+.sections .bg,
+.sections .flow-sec {
+    position: relative;
+}
+
+.sections .flow-sec {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.sections .flow-sec p {
+    width: 525px;
+}
+
+.sections .prev-img img {
+    height: 400px;
+}
+
+.sections .elements {
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 0;
+}
+
+.sections .flow-sec .elements {
+    margin-right: 0;
+    margin-left: 50px;
+}
+
+.sections .all {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: calc(50% - 500px);
+}
+
+.sections .elements .title {
+    font-size: 20px;
+    font-family: Poppins;
+}
+
+.footer .top-bg {
+    background-image:  url(../images/bg-footer-top-desktop.svg);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer .elem {
+    background-color: var(--VeryDarkCyan);
+    color: white;
+    padding: 100px;
+    font-family: 'Open Sans';
+    position: relative;
+}
+
+.footer .left,
+.footer .right {
+    display: inline-block;
+    width: 500px;
+}
+
+.footer .elem {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .right .title {
+    font-family: 'Open Sans';
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.footer .right p {
+    margin-bottom: 50px;
+}
+
+.footer .left .p p {
+    width: 350px;
+}
+
+.footer p {
+    line-height: 1.6;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer .left img {
+    filter: brightness(0) invert(1);
+}
+
+.footer .button .sub {
+    display: inline-block;
+}
+
+.footer .button .sub a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 900;
+    background-color: var(--Pink);
+    padding: 15px 35px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.footer .button .sub a:hover {
+    background-color: var(--LightPink);
+}
+
+.footer .button input {
+    padding: 15px;
+    margin-right: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 275px;
+    outline: none;
+}
+
+.footer .button input:focus {
+    border: 1px solid var(--LightRed);
+}
+
+.footer .button input:focus + span::after {
+    content: "Check your email please";
+    color: var(--LightRed);
+    display: block;
+    position: absolute;
+}
+
+.footer .phone img {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer .phone p {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.footer .mail img {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer .mail p {
+    margin-top: 0;
+    display: inline-block;
+}
+
+.footer .social i {
+    margin-right: 20px;
+    font-size: 40px;
+}
+
+.footer .social {
+    margin-top: 60px;
+}
+
+.sections .i {
+    background-image: url(../images/bg-section-top-desktop-1.svg);
+}
+
+.sections .ii {
+    background-image: url(../images/bg-section-bottom-desktop-1.svg);
+}
+
+.sections .iii {
+    background-image: url(../images/bg-section-top-desktop-2.svg);
+}
+
+.sections .iiii {
+    background-image: url(../images/bg-section-bottom-desktop-2.svg);
+}
+
+.sections .i,
+.sections .ii,
+.sections .iii,
+.sections .iiii {
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+    background-repeat: no-repeat;
+}
